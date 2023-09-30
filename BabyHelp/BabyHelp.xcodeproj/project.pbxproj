@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		650C68FE2AB2FB4F00080FE7 /* ParacetamolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C68FD2AB2FB4F00080FE7 /* ParacetamolVC.swift */; };
+		650C69002AB2FDDF00080FE7 /* IbuprofenVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 650C68FF2AB2FDDF00080FE7 /* IbuprofenVC.swift */; };
+		6528C3F32AA636660098EE95 /* NervousTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6528C3F22AA636660098EE95 /* NervousTableViewCell.swift */; };
+		652EB08D2AB6E59F00A4F3BD /* MotorSkillPyramidVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 652EB08C2AB6E59F00A4F3BD /* MotorSkillPyramidVC.swift */; };
+		65388FB42A8A5A2800F2FD5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65388FB32A8A5A2800F2FD5C /* AppDelegate.swift */; };
+		65388FB62A8A5A2800F2FD5C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65388FB52A8A5A2800F2FD5C /* SceneDelegate.swift */; };
+		65388FBB2A8A5A2800F2FD5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65388FB92A8A5A2800F2FD5C /* Main.storyboard */; };
+		65388FBD2A8A5A2900F2FD5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65388FBC2A8A5A2900F2FD5C /* Assets.xcassets */; };
+		65388FC02A8A5A2900F2FD5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65388FBE2A8A5A2900F2FD5C /* LaunchScreen.storyboard */; };
+		65388FC92A8A5AB400F2FD5C /* UIView+Layer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65388FC82A8A5AB400F2FD5C /* UIView+Layer.swift */; };
+		65388FCB2A8A5B1A00F2FD5C /* UIColor+Palette.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65388FCA2A8A5B1A00F2FD5C /* UIColor+Palette.swift */; };
+		65388FCD2A8A5B5900F2FD5C /* UIButton+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65388FCC2A8A5B5900F2FD5C /* UIButton+Style.swift */; };
+		65388FCF2A8A5B8500F2FD5C /* UIButton+Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65388FCE2A8A5B8500F2FD5C /* UIButton+Title.swift */; };
+		65388FD22A8A5E9500F2FD5C /* GreetingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65388FD12A8A5E9500F2FD5C /* GreetingsVC.swift */; };
+		65388FD42A8A6D1700F2FD5C /* ProfileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65388FD32A8A6D1700F2FD5C /* ProfileVC.swift */; };
+		653E942D2AA7A3A700C7FAF5 /* FirstMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E942C2AA7A3A700C7FAF5 /* FirstMonthVC.swift */; };
+		653E942F2AA7A3B800C7FAF5 /* SecondMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E942E2AA7A3B800C7FAF5 /* SecondMonthVC.swift */; };
+		653E94312AA7A3CB00C7FAF5 /* ThirdMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E94302AA7A3CB00C7FAF5 /* ThirdMonthVC.swift */; };
+		653E94332AA7A3DA00C7FAF5 /* FourthMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E94322AA7A3DA00C7FAF5 /* FourthMonthVC.swift */; };
+		653E94352AA7A3EC00C7FAF5 /* FifthMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E94342AA7A3EC00C7FAF5 /* FifthMonthVC.swift */; };
+		653E94372AA7A3FB00C7FAF5 /* SixthMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E94362AA7A3FB00C7FAF5 /* SixthMonthVC.swift */; };
+		653E94392AA7A40900C7FAF5 /* SeventhEighthMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E94382AA7A40900C7FAF5 /* SeventhEighthMonthVC.swift */; };
+		653E943B2AA7A41B00C7FAF5 /* NinthTenthMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E943A2AA7A41B00C7FAF5 /* NinthTenthMonthVC.swift */; };
+		653E943D2AA7A42E00C7FAF5 /* EleventhTwelfthMonthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 653E943C2AA7A42E00C7FAF5 /* EleventhTwelfthMonthVC.swift */; };
+		65411C482AA4A65F001EB9BA /* PhysiologicalWeightLossVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65411C472AA4A65F001EB9BA /* PhysiologicalWeightLossVC.swift */; };
+		65411C4A2AA4A950001EB9BA /* NewbornJaundiceVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65411C492AA4A950001EB9BA /* NewbornJaundiceVC.swift */; };
+		65411C4C2AA4A97E001EB9BA /* ToxicErythemaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65411C4B2AA4A97E001EB9BA /* ToxicErythemaVC.swift */; };
+		65411C4E2AA4A9A8001EB9BA /* UricAcidAttackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65411C4D2AA4A9A8001EB9BA /* UricAcidAttackVC.swift */; };
+		65411C502AA4A9D0001EB9BA /* SexualCrisisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65411C4F2AA4A9D0001EB9BA /* SexualCrisisVC.swift */; };
+		65411C522AA4A9F8001EB9BA /* TelangiectasiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65411C512AA4A9F8001EB9BA /* TelangiectasiaVC.swift */; };
+		65411C542AA4B172001EB9BA /* UILabel+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65411C532AA4B172001EB9BA /* UILabel+Font.swift */; };
+		6544C38E2A9C7BB8006ECDA7 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C38D2A9C7BB8006ECDA7 /* MenuVC.swift */; };
+		6544C3902A9CCD8E006ECDA7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C38F2A9CCD8E006ECDA7 /* MenuTableViewCell.swift */; };
+		6544C3932A9CDA4E006ECDA7 /* BorderStatesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C3922A9CDA4E006ECDA7 /* BorderStatesVC.swift */; };
+		6544C3972A9FB87F006ECDA7 /* NervousMentalDevelopmentVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C3962A9FB87F006ECDA7 /* NervousMentalDevelopmentVC.swift */; };
+		6544C3992A9FB94D006ECDA7 /* SkinManifestationsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C3982A9FB94D006ECDA7 /* SkinManifestationsVC.swift */; };
+		6544C39B2A9FB99B006ECDA7 /* VitaminDVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C39A2A9FB99B006ECDA7 /* VitaminDVC.swift */; };
+		6544C39D2A9FBA2C006ECDA7 /* FeedingRulesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C39C2A9FBA2B006ECDA7 /* FeedingRulesVC.swift */; };
+		6544C39F2A9FBAE7006ECDA7 /* StoolBabyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C39E2A9FBAE7006ECDA7 /* StoolBabyVC.swift */; };
+		6544C3A12A9FBB42006ECDA7 /* BloodsElementsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C3A02A9FBB42006ECDA7 /* BloodsElementsVC.swift */; };
+		6544C3A32A9FBB8F006ECDA7 /* VaccinationVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C3A22A9FBB8E006ECDA7 /* VaccinationVC.swift */; };
+		6544C3A52A9FBC5C006ECDA7 /* HomeFirstAidKitVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6544C3A42A9FBC5C006ECDA7 /* HomeFirstAidKitVC.swift */; };
+		6586032C2AA4CBA4002104CA /* UITextView+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586032B2AA4CBA4002104CA /* UITextView+Font.swift */; };
+		6586DF6A2AB4E5FE00647E1F /* AmbroxolVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586DF692AB4E5FE00647E1F /* AmbroxolVC.swift */; };
+		6586DF6C2AB4EE1200647E1F /* AcetylCysteinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586DF6B2AB4EE1200647E1F /* AcetylCysteinVC.swift */; };
+		6586DF6E2AB635F900647E1F /* SimethiconeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586DF6D2AB635F900647E1F /* SimethiconeVC.swift */; };
+		6586DF702AB64A9500647E1F /* TestScrollViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6586DF6F2AB64A9500647E1F /* TestScrollViewVC.swift */; };
+		65B569F32AAC536B00FBF752 /* AcneNewbornsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B569F22AAC536B00FBF752 /* AcneNewbornsVC.swift */; };
+		65B569F52AAC56AC00FBF752 /* PricklyHeatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B569F42AAC56AC00FBF752 /* PricklyHeatVC.swift */; };
+		65B569F72AAC592500FBF752 /* DiaperDermatitisVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B569F62AAC592500FBF752 /* DiaperDermatitisVC.swift */; };
+		65B569FA2AADD80D00FBF752 /* NutritionUpTo6MonthsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B569F92AADD80D00FBF752 /* NutritionUpTo6MonthsVC.swift */; };
+		65B569FC2AADD83E00FBF752 /* NutritionAfter6MonthsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B569FB2AADD83E00FBF752 /* NutritionAfter6MonthsVC.swift */; };
+		65B569FE2AADD86900FBF752 /* HealthyEatingTipsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B569FD2AADD86900FBF752 /* HealthyEatingTipsVC.swift */; };
+		65B56A002AADE41700FBF752 /* FeedingTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65B569FF2AADE41700FBF752 /* FeedingTableVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		650C68FD2AB2FB4F00080FE7 /* ParacetamolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParacetamolVC.swift; sourceTree = "<group>"; };
+		650C68FF2AB2FDDF00080FE7 /* IbuprofenVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IbuprofenVC.swift; sourceTree = "<group>"; };
+		6528C3F22AA636660098EE95 /* NervousTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NervousTableViewCell.swift; sourceTree = "<group>"; };
+		652EB08C2AB6E59F00A4F3BD /* MotorSkillPyramidVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotorSkillPyramidVC.swift; sourceTree = "<group>"; };
+		65388FB02A8A5A2800F2FD5C /* BabyHelp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyHelp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		65388FB32A8A5A2800F2FD5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65388FB52A8A5A2800F2FD5C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		65388FBA2A8A5A2800F2FD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65388FBC2A8A5A2900F2FD5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65388FBF2A8A5A2900F2FD5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65388FC12A8A5A2900F2FD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65388FC82A8A5AB400F2FD5C /* UIView+Layer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layer.swift"; sourceTree = "<group>"; };
+		65388FCA2A8A5B1A00F2FD5C /* UIColor+Palette.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Palette.swift"; sourceTree = "<group>"; };
+		65388FCC2A8A5B5900F2FD5C /* UIButton+Style.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Style.swift"; sourceTree = "<group>"; };
+		65388FCE2A8A5B8500F2FD5C /* UIButton+Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Title.swift"; sourceTree = "<group>"; };
+		65388FD12A8A5E9500F2FD5C /* GreetingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreetingsVC.swift; sourceTree = "<group>"; };
+		65388FD32A8A6D1700F2FD5C /* ProfileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileVC.swift; sourceTree = "<group>"; };
+		653E942C2AA7A3A700C7FAF5 /* FirstMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstMonthVC.swift; sourceTree = "<group>"; };
+		653E942E2AA7A3B800C7FAF5 /* SecondMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondMonthVC.swift; sourceTree = "<group>"; };
+		653E94302AA7A3CB00C7FAF5 /* ThirdMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdMonthVC.swift; sourceTree = "<group>"; };
+		653E94322AA7A3DA00C7FAF5 /* FourthMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthMonthVC.swift; sourceTree = "<group>"; };
+		653E94342AA7A3EC00C7FAF5 /* FifthMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FifthMonthVC.swift; sourceTree = "<group>"; };
+		653E94362AA7A3FB00C7FAF5 /* SixthMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SixthMonthVC.swift; sourceTree = "<group>"; };
+		653E94382AA7A40900C7FAF5 /* SeventhEighthMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeventhEighthMonthVC.swift; sourceTree = "<group>"; };
+		653E943A2AA7A41B00C7FAF5 /* NinthTenthMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NinthTenthMonthVC.swift; sourceTree = "<group>"; };
+		653E943C2AA7A42E00C7FAF5 /* EleventhTwelfthMonthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EleventhTwelfthMonthVC.swift; sourceTree = "<group>"; };
+		65411C472AA4A65F001EB9BA /* PhysiologicalWeightLossVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhysiologicalWeightLossVC.swift; sourceTree = "<group>"; };
+		65411C492AA4A950001EB9BA /* NewbornJaundiceVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewbornJaundiceVC.swift; sourceTree = "<group>"; };
+		65411C4B2AA4A97E001EB9BA /* ToxicErythemaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToxicErythemaVC.swift; sourceTree = "<group>"; };
+		65411C4D2AA4A9A8001EB9BA /* UricAcidAttackVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UricAcidAttackVC.swift; sourceTree = "<group>"; };
+		65411C4F2AA4A9D0001EB9BA /* SexualCrisisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SexualCrisisVC.swift; sourceTree = "<group>"; };
+		65411C512AA4A9F8001EB9BA /* TelangiectasiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelangiectasiaVC.swift; sourceTree = "<group>"; };
+		65411C532AA4B172001EB9BA /* UILabel+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Font.swift"; sourceTree = "<group>"; };
+		6544C38D2A9C7BB8006ECDA7 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		6544C38F2A9CCD8E006ECDA7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		6544C3922A9CDA4E006ECDA7 /* BorderStatesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderStatesVC.swift; sourceTree = "<group>"; };
+		6544C3962A9FB87F006ECDA7 /* NervousMentalDevelopmentVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NervousMentalDevelopmentVC.swift; sourceTree = "<group>"; };
+		6544C3982A9FB94D006ECDA7 /* SkinManifestationsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkinManifestationsVC.swift; sourceTree = "<group>"; };
+		6544C39A2A9FB99B006ECDA7 /* VitaminDVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VitaminDVC.swift; sourceTree = "<group>"; };
+		6544C39C2A9FBA2B006ECDA7 /* FeedingRulesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingRulesVC.swift; sourceTree = "<group>"; };
+		6544C39E2A9FBAE7006ECDA7 /* StoolBabyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoolBabyVC.swift; sourceTree = "<group>"; };
+		6544C3A02A9FBB42006ECDA7 /* BloodsElementsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BloodsElementsVC.swift; sourceTree = "<group>"; };
+		6544C3A22A9FBB8E006ECDA7 /* VaccinationVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VaccinationVC.swift; sourceTree = "<group>"; };
+		6544C3A42A9FBC5C006ECDA7 /* HomeFirstAidKitVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeFirstAidKitVC.swift; sourceTree = "<group>"; };
+		6586032B2AA4CBA4002104CA /* UITextView+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextView+Font.swift"; sourceTree = "<group>"; };
+		6586DF692AB4E5FE00647E1F /* AmbroxolVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmbroxolVC.swift; sourceTree = "<group>"; };
+		6586DF6B2AB4EE1200647E1F /* AcetylCysteinVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcetylCysteinVC.swift; sourceTree = "<group>"; };
+		6586DF6D2AB635F900647E1F /* SimethiconeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimethiconeVC.swift; sourceTree = "<group>"; };
+		6586DF6F2AB64A9500647E1F /* TestScrollViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestScrollViewVC.swift; sourceTree = "<group>"; };
+		65B569F22AAC536B00FBF752 /* AcneNewbornsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AcneNewbornsVC.swift; sourceTree = "<group>"; };
+		65B569F42AAC56AC00FBF752 /* PricklyHeatVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PricklyHeatVC.swift; sourceTree = "<group>"; };
+		65B569F62AAC592500FBF752 /* DiaperDermatitisVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiaperDermatitisVC.swift; sourceTree = "<group>"; };
+		65B569F92AADD80D00FBF752 /* NutritionUpTo6MonthsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionUpTo6MonthsVC.swift; sourceTree = "<group>"; };
+		65B569FB2AADD83E00FBF752 /* NutritionAfter6MonthsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NutritionAfter6MonthsVC.swift; sourceTree = "<group>"; };
+		65B569FD2AADD86900FBF752 /* HealthyEatingTipsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthyEatingTipsVC.swift; sourceTree = "<group>"; };
+		65B569FF2AADE41700FBF752 /* FeedingTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedingTableVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65388FAD2A8A5A2800F2FD5C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		650C68FC2AB2FAF700080FE7 /* MenuHomeFirstAidKit */ = {
+			isa = PBXGroup;
+			children = (
+				650C68FD2AB2FB4F00080FE7 /* ParacetamolVC.swift */,
+				650C68FF2AB2FDDF00080FE7 /* IbuprofenVC.swift */,
+				6586DF692AB4E5FE00647E1F /* AmbroxolVC.swift */,
+				6586DF6B2AB4EE1200647E1F /* AcetylCysteinVC.swift */,
+				6586DF6D2AB635F900647E1F /* SimethiconeVC.swift */,
+			);
+			path = MenuHomeFirstAidKit;
+			sourceTree = "<group>";
+		};
+		65388FA72A8A5A2800F2FD5C = {
+			isa = PBXGroup;
+			children = (
+				65388FB22A8A5A2800F2FD5C /* BabyHelp */,
+				65388FB12A8A5A2800F2FD5C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65388FB12A8A5A2800F2FD5C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65388FB02A8A5A2800F2FD5C /* BabyHelp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65388FB22A8A5A2800F2FD5C /* BabyHelp */ = {
+			isa = PBXGroup;
+			children = (
+				6544C38C2A9C7B9E006ECDA7 /* MenuVC */,
+				65388FD52A8A6D3000F2FD5C /* ProfileVC */,
+				65388FD02A8A5CC400F2FD5C /* GreetingsVC */,
+				65388FC72A8A5A3C00F2FD5C /* Utills */,
+				65388FB32A8A5A2800F2FD5C /* AppDelegate.swift */,
+				65388FB52A8A5A2800F2FD5C /* SceneDelegate.swift */,
+				65388FB92A8A5A2800F2FD5C /* Main.storyboard */,
+				6586DF6F2AB64A9500647E1F /* TestScrollViewVC.swift */,
+				65388FBC2A8A5A2900F2FD5C /* Assets.xcassets */,
+				65388FBE2A8A5A2900F2FD5C /* LaunchScreen.storyboard */,
+				65388FC12A8A5A2900F2FD5C /* Info.plist */,
+			);
+			path = BabyHelp;
+			sourceTree = "<group>";
+		};
+		65388FC72A8A5A3C00F2FD5C /* Utills */ = {
+			isa = PBXGroup;
+			children = (
+				65388FC82A8A5AB400F2FD5C /* UIView+Layer.swift */,
+				65388FCA2A8A5B1A00F2FD5C /* UIColor+Palette.swift */,
+				65388FCC2A8A5B5900F2FD5C /* UIButton+Style.swift */,
+				65388FCE2A8A5B8500F2FD5C /* UIButton+Title.swift */,
+				65411C532AA4B172001EB9BA /* UILabel+Font.swift */,
+				6586032B2AA4CBA4002104CA /* UITextView+Font.swift */,
+			);
+			path = Utills;
+			sourceTree = "<group>";
+		};
+		65388FD02A8A5CC400F2FD5C /* GreetingsVC */ = {
+			isa = PBXGroup;
+			children = (
+				65388FD12A8A5E9500F2FD5C /* GreetingsVC.swift */,
+			);
+			path = GreetingsVC;
+			sourceTree = "<group>";
+		};
+		65388FD52A8A6D3000F2FD5C /* ProfileVC */ = {
+			isa = PBXGroup;
+			children = (
+				65388FD32A8A6D1700F2FD5C /* ProfileVC.swift */,
+			);
+			path = ProfileVC;
+			sourceTree = "<group>";
+		};
+		653E942B2AA7A34D00C7FAF5 /* MenuNervousMentalDevelopment */ = {
+			isa = PBXGroup;
+			children = (
+				653E942C2AA7A3A700C7FAF5 /* FirstMonthVC.swift */,
+				653E942E2AA7A3B800C7FAF5 /* SecondMonthVC.swift */,
+				653E94302AA7A3CB00C7FAF5 /* ThirdMonthVC.swift */,
+				653E94322AA7A3DA00C7FAF5 /* FourthMonthVC.swift */,
+				653E94342AA7A3EC00C7FAF5 /* FifthMonthVC.swift */,
+				653E94362AA7A3FB00C7FAF5 /* SixthMonthVC.swift */,
+				653E94382AA7A40900C7FAF5 /* SeventhEighthMonthVC.swift */,
+				653E943A2AA7A41B00C7FAF5 /* NinthTenthMonthVC.swift */,
+				653E943C2AA7A42E00C7FAF5 /* EleventhTwelfthMonthVC.swift */,
+				652EB08C2AB6E59F00A4F3BD /* MotorSkillPyramidVC.swift */,
+			);
+			path = MenuNervousMentalDevelopment;
+			sourceTree = "<group>";
+		};
+		65411C3E2AA49796001EB9BA /* MenuElements */ = {
+			isa = PBXGroup;
+			children = (
+				6544C3912A9CDA20006ECDA7 /* BorderStates */,
+				65411C3F2AA4A52C001EB9BA /* NervousMentalDevelopment */,
+				65411C402AA4A576001EB9BA /* SkinManifestations */,
+				65411C412AA4A583001EB9BA /* VitaminD */,
+				65411C422AA4A595001EB9BA /* FeedingRules */,
+				65411C432AA4A5A4001EB9BA /* StoolBaby */,
+				65411C442AA4A5B0001EB9BA /* BloodsElements */,
+				65411C452AA4A5BD001EB9BA /* Vaccination */,
+				65411C462AA4A5CE001EB9BA /* HomeFirstAidKit */,
+			);
+			path = MenuElements;
+			sourceTree = "<group>";
+		};
+		65411C3F2AA4A52C001EB9BA /* NervousMentalDevelopment */ = {
+			isa = PBXGroup;
+			children = (
+				653E942B2AA7A34D00C7FAF5 /* MenuNervousMentalDevelopment */,
+				6544C3962A9FB87F006ECDA7 /* NervousMentalDevelopmentVC.swift */,
+				6528C3F22AA636660098EE95 /* NervousTableViewCell.swift */,
+			);
+			path = NervousMentalDevelopment;
+			sourceTree = "<group>";
+		};
+		65411C402AA4A576001EB9BA /* SkinManifestations */ = {
+			isa = PBXGroup;
+			children = (
+				65B569F12AAC534E00FBF752 /* TypesSkinManifestations */,
+				6544C3982A9FB94D006ECDA7 /* SkinManifestationsVC.swift */,
+			);
+			path = SkinManifestations;
+			sourceTree = "<group>";
+		};
+		65411C412AA4A583001EB9BA /* VitaminD */ = {
+			isa = PBXGroup;
+			children = (
+				6544C39A2A9FB99B006ECDA7 /* VitaminDVC.swift */,
+			);
+			path = VitaminD;
+			sourceTree = "<group>";
+		};
+		65411C422AA4A595001EB9BA /* FeedingRules */ = {
+			isa = PBXGroup;
+			children = (
+				65B569F82AADD7CD00FBF752 /* MenuFeedingsRules */,
+				6544C39C2A9FBA2B006ECDA7 /* FeedingRulesVC.swift */,
+			);
+			path = FeedingRules;
+			sourceTree = "<group>";
+		};
+		65411C432AA4A5A4001EB9BA /* StoolBaby */ = {
+			isa = PBXGroup;
+			children = (
+				6544C39E2A9FBAE7006ECDA7 /* StoolBabyVC.swift */,
+			);
+			path = StoolBaby;
+			sourceTree = "<group>";
+		};
+		65411C442AA4A5B0001EB9BA /* BloodsElements */ = {
+			isa = PBXGroup;
+			children = (
+				6544C3A02A9FBB42006ECDA7 /* BloodsElementsVC.swift */,
+			);
+			path = BloodsElements;
+			sourceTree = "<group>";
+		};
+		65411C452AA4A5BD001EB9BA /* Vaccination */ = {
+			isa = PBXGroup;
+			children = (
+				6544C3A22A9FBB8E006ECDA7 /* VaccinationVC.swift */,
+			);
+			path = Vaccination;
+			sourceTree = "<group>";
+		};
+		65411C462AA4A5CE001EB9BA /* HomeFirstAidKit */ = {
+			isa = PBXGroup;
+			children = (
+				650C68FC2AB2FAF700080FE7 /* MenuHomeFirstAidKit */,
+				6544C3A42A9FBC5C006ECDA7 /* HomeFirstAidKitVC.swift */,
+			);
+			path = HomeFirstAidKit;
+			sourceTree = "<group>";
+		};
+		6544C38C2A9C7B9E006ECDA7 /* MenuVC */ = {
+			isa = PBXGroup;
+			children = (
+				65411C3E2AA49796001EB9BA /* MenuElements */,
+				6544C38D2A9C7BB8006ECDA7 /* MenuVC.swift */,
+				6544C38F2A9CCD8E006ECDA7 /* MenuTableViewCell.swift */,
+			);
+			path = MenuVC;
+			sourceTree = "<group>";
+		};
+		6544C3912A9CDA20006ECDA7 /* BorderStates */ = {
+			isa = PBXGroup;
+			children = (
+				6544C3922A9CDA4E006ECDA7 /* BorderStatesVC.swift */,
+				6544C3952A9FB831006ECDA7 /* TypesOfBorderStates */,
+			);
+			path = BorderStates;
+			sourceTree = "<group>";
+		};
+		6544C3952A9FB831006ECDA7 /* TypesOfBorderStates */ = {
+			isa = PBXGroup;
+			children = (
+				65411C472AA4A65F001EB9BA /* PhysiologicalWeightLossVC.swift */,
+				65411C492AA4A950001EB9BA /* NewbornJaundiceVC.swift */,
+				65411C4B2AA4A97E001EB9BA /* ToxicErythemaVC.swift */,
+				65411C4D2AA4A9A8001EB9BA /* UricAcidAttackVC.swift */,
+				65411C4F2AA4A9D0001EB9BA /* SexualCrisisVC.swift */,
+				65411C512AA4A9F8001EB9BA /* TelangiectasiaVC.swift */,
+			);
+			path = TypesOfBorderStates;
+			sourceTree = "<group>";
+		};
+		65B569F12AAC534E00FBF752 /* TypesSkinManifestations */ = {
+			isa = PBXGroup;
+			children = (
+				65B569F22AAC536B00FBF752 /* AcneNewbornsVC.swift */,
+				65B569F42AAC56AC00FBF752 /* PricklyHeatVC.swift */,
+				65B569F62AAC592500FBF752 /* DiaperDermatitisVC.swift */,
+			);
+			path = TypesSkinManifestations;
+			sourceTree = "<group>";
+		};
+		65B569F82AADD7CD00FBF752 /* MenuFeedingsRules */ = {
+			isa = PBXGroup;
+			children = (
+				65B569F92AADD80D00FBF752 /* NutritionUpTo6MonthsVC.swift */,
+				65B569FB2AADD83E00FBF752 /* NutritionAfter6MonthsVC.swift */,
+				65B569FD2AADD86900FBF752 /* HealthyEatingTipsVC.swift */,
+				65B569FF2AADE41700FBF752 /* FeedingTableVC.swift */,
+			);
+			path = MenuFeedingsRules;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65388FAF2A8A5A2800F2FD5C /* BabyHelp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65388FC42A8A5A2900F2FD5C /* Build configuration list for PBXNativeTarget "BabyHelp" */;
+			buildPhases = (
+				65388FAC2A8A5A2800F2FD5C /* Sources */,
+				65388FAD2A8A5A2800F2FD5C /* Frameworks */,
+				65388FAE2A8A5A2800F2FD5C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyHelp;
+			productName = BabyHelp;
+			productReference = 65388FB02A8A5A2800F2FD5C /* BabyHelp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65388FA82A8A5A2800F2FD5C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					65388FAF2A8A5A2800F2FD5C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = 65388FAB2A8A5A2800F2FD5C /* Build configuration list for PBXProject "BabyHelp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65388FA72A8A5A2800F2FD5C;
+			productRefGroup = 65388FB12A8A5A2800F2FD5C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65388FAF2A8A5A2800F2FD5C /* BabyHelp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65388FAE2A8A5A2800F2FD5C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65388FC02A8A5A2900F2FD5C /* LaunchScreen.storyboard in Resources */,
+				65388FBD2A8A5A2900F2FD5C /* Assets.xcassets in Resources */,
+				65388FBB2A8A5A2800F2FD5C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65388FAC2A8A5A2800F2FD5C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6586DF6C2AB4EE1200647E1F /* AcetylCysteinVC.swift in Sources */,
+				65B569FE2AADD86900FBF752 /* HealthyEatingTipsVC.swift in Sources */,
+				65388FB42A8A5A2800F2FD5C /* AppDelegate.swift in Sources */,
+				650C69002AB2FDDF00080FE7 /* IbuprofenVC.swift in Sources */,
+				65411C502AA4A9D0001EB9BA /* SexualCrisisVC.swift in Sources */,
+				65411C4A2AA4A950001EB9BA /* NewbornJaundiceVC.swift in Sources */,
+				653E943D2AA7A42E00C7FAF5 /* EleventhTwelfthMonthVC.swift in Sources */,
+				652EB08D2AB6E59F00A4F3BD /* MotorSkillPyramidVC.swift in Sources */,
+				65388FD22A8A5E9500F2FD5C /* GreetingsVC.swift in Sources */,
+				6544C3992A9FB94D006ECDA7 /* SkinManifestationsVC.swift in Sources */,
+				6528C3F32AA636660098EE95 /* NervousTableViewCell.swift in Sources */,
+				65B56A002AADE41700FBF752 /* FeedingTableVC.swift in Sources */,
+				65388FC92A8A5AB400F2FD5C /* UIView+Layer.swift in Sources */,
+				653E94312AA7A3CB00C7FAF5 /* ThirdMonthVC.swift in Sources */,
+				65388FCF2A8A5B8500F2FD5C /* UIButton+Title.swift in Sources */,
+				650C68FE2AB2FB4F00080FE7 /* ParacetamolVC.swift in Sources */,
+				653E94352AA7A3EC00C7FAF5 /* FifthMonthVC.swift in Sources */,
+				65411C482AA4A65F001EB9BA /* PhysiologicalWeightLossVC.swift in Sources */,
+				653E94332AA7A3DA00C7FAF5 /* FourthMonthVC.swift in Sources */,
+				65411C4E2AA4A9A8001EB9BA /* UricAcidAttackVC.swift in Sources */,
+				65B569F32AAC536B00FBF752 /* AcneNewbornsVC.swift in Sources */,
+				65B569F52AAC56AC00FBF752 /* PricklyHeatVC.swift in Sources */,
+				6544C39D2A9FBA2C006ECDA7 /* FeedingRulesVC.swift in Sources */,
+				653E942F2AA7A3B800C7FAF5 /* SecondMonthVC.swift in Sources */,
+				65B569FC2AADD83E00FBF752 /* NutritionAfter6MonthsVC.swift in Sources */,
+				6544C3A52A9FBC5C006ECDA7 /* HomeFirstAidKitVC.swift in Sources */,
+				6586DF6A2AB4E5FE00647E1F /* AmbroxolVC.swift in Sources */,
+				65388FD42A8A6D1700F2FD5C /* ProfileVC.swift in Sources */,
+				653E943B2AA7A41B00C7FAF5 /* NinthTenthMonthVC.swift in Sources */,
+				653E94392AA7A40900C7FAF5 /* SeventhEighthMonthVC.swift in Sources */,
+				653E942D2AA7A3A700C7FAF5 /* FirstMonthVC.swift in Sources */,
+				65411C4C2AA4A97E001EB9BA /* ToxicErythemaVC.swift in Sources */,
+				6544C3A32A9FBB8F006ECDA7 /* VaccinationVC.swift in Sources */,
+				6544C3972A9FB87F006ECDA7 /* NervousMentalDevelopmentVC.swift in Sources */,
+				6544C3932A9CDA4E006ECDA7 /* BorderStatesVC.swift in Sources */,
+				6586DF6E2AB635F900647E1F /* SimethiconeVC.swift in Sources */,
+				65388FB62A8A5A2800F2FD5C /* SceneDelegate.swift in Sources */,
+				65411C522AA4A9F8001EB9BA /* TelangiectasiaVC.swift in Sources */,
+				6544C39B2A9FB99B006ECDA7 /* VitaminDVC.swift in Sources */,
+				65388FCD2A8A5B5900F2FD5C /* UIButton+Style.swift in Sources */,
+				65388FCB2A8A5B1A00F2FD5C /* UIColor+Palette.swift in Sources */,
+				6586032C2AA4CBA4002104CA /* UITextView+Font.swift in Sources */,
+				65B569F72AAC592500FBF752 /* DiaperDermatitisVC.swift in Sources */,
+				6544C3A12A9FBB42006ECDA7 /* BloodsElementsVC.swift in Sources */,
+				6544C38E2A9C7BB8006ECDA7 /* MenuVC.swift in Sources */,
+				6544C3902A9CCD8E006ECDA7 /* MenuTableViewCell.swift in Sources */,
+				6544C39F2A9FBAE7006ECDA7 /* StoolBabyVC.swift in Sources */,
+				65B569FA2AADD80D00FBF752 /* NutritionUpTo6MonthsVC.swift in Sources */,
+				6586DF702AB64A9500647E1F /* TestScrollViewVC.swift in Sources */,
+				653E94372AA7A3FB00C7FAF5 /* SixthMonthVC.swift in Sources */,
+				65411C542AA4B172001EB9BA /* UILabel+Font.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65388FB92A8A5A2800F2FD5C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65388FBA2A8A5A2800F2FD5C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65388FBE2A8A5A2900F2FD5C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65388FBF2A8A5A2900F2FD5C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65388FC22A8A5A2900F2FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		65388FC32A8A5A2900F2FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65388FC52A8A5A2900F2FD5C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TM9C7U8JJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabyHelp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = homeWork.BabyHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65388FC62A8A5A2900F2FD5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TM9C7U8JJD;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BabyHelp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = homeWork.BabyHelp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65388FAB2A8A5A2800F2FD5C /* Build configuration list for PBXProject "BabyHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65388FC22A8A5A2900F2FD5C /* Debug */,
+				65388FC32A8A5A2900F2FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65388FC42A8A5A2900F2FD5C /* Build configuration list for PBXNativeTarget "BabyHelp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65388FC52A8A5A2900F2FD5C /* Debug */,
+				65388FC62A8A5A2900F2FD5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 65388FA82A8A5A2800F2FD5C /* Project object */;
+}
